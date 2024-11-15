@@ -28,9 +28,9 @@ from config import (
 # Initialize the bot client
 bot = Client(
     "media_bot",
-    api_id=26571790,
-    api_hash=85cf07a16f40cceb2cd7735600d59afc,
-    bot_token=8012666118:AAG_5omiOeLn9q4Fd1tcUx3IbvDEK8VJf_8,
+    api_id=API_ID,
+    api_hash=API_HASH,
+    bot_token=BOT_TOKEN,
 )
 
 # Client for user session
