@@ -1,9 +1,0 @@
-# Fichiers sensibles
-config.py
-
-# Environnement virtuel
-venv/
-
-# Autres fichiers temporaires
-__pycache__/
-*.pyc
