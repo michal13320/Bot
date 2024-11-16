@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: my-web-app
+    env: node
+    buildCommand: 'npm install'
+    startCommand: 'npm start'
+    instanceType: 'medium'
+    plan: 'starter'
+    envVars:
+      - key: DATABASE_URL
+        value: 'your-database-url'
