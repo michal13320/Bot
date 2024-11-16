@@ -1,11 +1,10 @@
-services:
-  - type: web
-    name: my-web-app
-    env: node
-    buildCommand: 'npm install'
-    startCommand: 'npm start'
-    instanceType: 'medium'
-    plan: 'starter'
-    envVars:
-      - key: DATABASE_URL
-        value: 'your-database-url'
+api:
+  id: "26571790"  # Remplace par ton véritable API ID
+  hash: "85cf07a16f40cceb2cd7735600d59afc"  # Remplace par ton véritable API Hash
+bot:
+  token: "8012666118:AAG_5omiOeLn9q4Fd1tcUx3IbvDEK8VJf_8"  # Remplace par ton véritable Bot Token
+session:
+  string: "BAGVdA4AnXs2uWT90zZza6TjbVAvRin8-BBDOfbyVppeZixwcqQdBF7gnnyJCJSaLieJvjWofwui0Rv365XOyR9HBzDVCMRXOFnh78P1AIn6xPenZZd9bD-dh0lqNDxMuFyrK1Vt7bgtl3gCVbpAjpZIALRrvtBzPfgzdA87dIFdyTV8pRCNK5nloeuJJJu1iuVKQkmo1IVMbhqfjab-UaeFesm71c0mp-4ZmqcgQmqLTLfJKoM5J-SmJx7tb9LlwvfX8UShrQ_iuodo9g4A66wP-4k8_XO04HBDcbYjLuhxuGQTiIat2HhnGTQ7mlNd4Su1CSz_bmZkitY1v7ulqhTlVSpCLwAAAAG13UY2AA"  # Remplace par ta véritable Session String
+metadata:
+  author: "TheSmartBisnu"
+  channel: "https://t.me/itsSmartDev"
